@@ -79,9 +79,21 @@
         const message = '  This is my first message  ';
 
         // string object
-        const another = new string('  hi  ');
+        // const another = new string('  hi  ');
 
-        
+        // IF-ELSE STATEMENT
+        let hour = 1;
+        if (hour >= 6 && hour <12){
+            console.log('GOOD MORNING!');
+        }
+        else if(hour >= 12 && hour < 18){
+            console.log('GOOD AFTERNOON');
+        }
+        else{
+            console.log('GOOD EVENING');
+        }
+
+
 
         
 
