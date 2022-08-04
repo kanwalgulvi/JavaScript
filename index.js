@@ -76,9 +76,12 @@
         circle.draw();
 
         //String primitive
-        const message = 'This is my first message';
+        const message = '  This is my first message  ';
+
         // string object
-        const another = new string('hi');
+        const another = new string('  hi  ');
+
+        
 
         
 
